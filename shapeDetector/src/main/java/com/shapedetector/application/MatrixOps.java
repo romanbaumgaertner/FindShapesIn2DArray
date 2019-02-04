@@ -1,5 +1,4 @@
-package application;
-
+package com.shapedetector.application;
 import java.awt.Point;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -217,26 +216,6 @@ public class MatrixOps {
 		}
 		
 		return m;
-	}
-	
-	
-	//Rotate Matrix to 90 degree toward Right(clockwise)
-	public Integer[][] rotateMatrixDegreeClockwise(List<Integer> matrix) {
-
-		int totalRowsOfRotatedMatrix = matrix.size(); //Total columns of Original Matrix
-		int totalColsOfRotatedMatrix = matrix.size(); //Total rows of Original Matrix
-
-		Integer[][] rotatedMatrix = new Integer[totalRowsOfRotatedMatrix][totalColsOfRotatedMatrix];
-
-		for (int i = 0; i < matrix.size(); i++) {
-			for (int j = 0; j < matrix.size(); j++) {
-				
-				System.out.println( matrix.get(i) );
-				//System.out.println(o);
-				//rotatedMatrix[j][ (totalColsOfRotatedMatrix-1)- i] = matrix.get(i);
-			}
-		}
-		return rotatedMatrix;
 	}
 
 	// rotate the matrix by 90

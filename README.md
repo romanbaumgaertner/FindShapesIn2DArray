@@ -7,3 +7,13 @@ The project consists of a package called application which contains the followin
 + MatrixOps - class which does some data transformation (normalization, matrix creation and rotation)
 + Shape - defines the Shape, used from ShapeDetector
 + TestShapes - tests used during testing
+
+
+# Build the project 
+
++ cd shapeDetector
++ gradle assemble
+
+# Run the project 
+
++ java -jar build/libs/shapeDetector.jar 

@@ -1,4 +1,4 @@
-package application;
+package com.shapedetector.application;
 
 import java.awt.Point;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package application;
+package com.shapedetector.application;
 
 import java.util.ArrayList;
 import java.util.List;

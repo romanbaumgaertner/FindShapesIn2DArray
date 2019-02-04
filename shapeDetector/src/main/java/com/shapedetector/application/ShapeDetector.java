@@ -1,4 +1,4 @@
-package application;
+package com.shapedetector.application;
 
 import java.awt.Point;
 import java.util.ArrayList;
@@ -134,7 +134,7 @@ public class ShapeDetector {
 	}
 	
 	public static void main(String [] argv) {
-		ShapeDetector_old shapeDetector = new ShapeDetector_old();
+		ShapeDetector shapeDetector = new ShapeDetector();
 		shapeDetector.detectShapes(TestShapes.ts8);
 		
 		System.out.println(shapeDetector.getNumberOfShapes() );
@@ -161,7 +161,7 @@ public class ShapeDetector {
 	}
 	
 	public void findShapeTest1() {
-		ShapeDetector_old shapeDetector = new ShapeDetector_old();
+		ShapeDetector shapeDetector = new ShapeDetector();
 		
 		List<Shape> shapes = shapeDetector.detectShapes(TestShapes.ts2);
 		System.out.println(shapes);
@@ -169,7 +169,7 @@ public class ShapeDetector {
 	}
 	
 	public void findShapeValidField() {
-		ShapeDetector_old shapeDetector = new ShapeDetector_old();
+		ShapeDetector shapeDetector = new ShapeDetector();
 		
 		Point c1 = new Point(0,0);
 		Point c2 = new Point(-1,1);  //negative X
