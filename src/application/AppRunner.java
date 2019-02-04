@@ -9,9 +9,10 @@ public class AppRunner {
 	
 	// looks for unique shapes in the Shape container
 	//
-	// 1. Normalize shapes
-	// 2  Create Matrices from normalized shapes
-	// 3  Find unique shapes by interating over normalized shapes  
+	// 1. Collect shapes using shapeDetector
+	// 2. Normalize shapes
+	// 3. Create Matrices from normalized shapes
+	// 4. Find unique shapes by interating over normalized shapes  
 	public int numberUniqueShapes(ShapeDetector shapeDetector) {
 		boolean uniqueFound = false;
 		
